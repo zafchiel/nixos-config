@@ -11,6 +11,11 @@
 			zsh
 			neovim
 			lazygit
+
+			ripgrep
+			make
+			unzip
+			gcc
 		];
 	};
 
