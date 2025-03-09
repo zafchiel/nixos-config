@@ -19,7 +19,8 @@
 		enable = true;
 		shellAliases = {
 			la = "ls -A";
-			rebuild = "sudo nixos-rebuild switch";
+			rebuild = "sudo nixos-rebuild switch --flake ~/nix/";
+			home-switch = "home-manager switch --flake ~/nix/";
 		};
 	};
 
