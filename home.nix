@@ -53,9 +53,6 @@
 			plugins = [
 				"git"
 				"history"
-				"sudo"
-				"command-not-found"
-				"z"
 			];
 			theme = "robbyrussell";
 		};
