@@ -13,7 +13,7 @@
 			lazygit
 
 			ripgrep
-			make
+			gnumake
 			unzip
 			gcc
 		];
