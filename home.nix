@@ -40,7 +40,7 @@
 				  rev = "762afacbf227ecd173e899d10a28a478b4c84a3f";
 				  sha256 = "1357hygrjwj5vd4cjdvxzrx967f1d2dbqm2rskbz5z1q6jri1hm3";
 				};
-		      }
+		  }
 		];
 		
 		oh-my-zsh = {
@@ -50,8 +50,21 @@
 				"history"
 				"sudo"
 				"command-not-found"
+				"z"
 			];
 			theme = "robbyrussell";
+			extraConfig = ''
+				# Required for autocomplete with box: https://unix.stackexchange.com/a/778868
+				zstyle ':completion:*' completer _expand _complete _ignored _approximate _expand_alias
+				zstyle ':autocomplete:*' default-context curcontext 
+				zstyle ':autocomplete:*' min-input 0
+
+				setopt HIST_FIND_NO_DUPS
+				autoload -Uz compinit
+				compinit
+
+				setopt globdots # show dotfiles in autocomplete list
+      '';
 		};
 		
 		shellAliases = {
@@ -71,9 +84,6 @@
 			SAVEHIST=10000
 			HISTFILE=~/.zsh_history
 			setopt SHARE_HISTORY
-			
-			# Enable Vi mode
-			bindkey -v
 		'';
 	};
 
