@@ -104,6 +104,10 @@
     home-manager
   ];
 
+  # Automatic updates
+  system.autoUpgrade.enable = true;
+  system.autoUpgrade.dates = "weekly";
+
   # Delete builds older than 10d
   nix.gc = {
     automatic = true;
