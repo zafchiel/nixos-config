@@ -58,12 +58,6 @@
 				"z"
 			];
 			theme = "robbyrussell";
-			extraConfig = ''
-				autoload -Uz compinit
-				compinit
-
-				setopt globdots # show dotfiles in autocomplete list
-      '';
 		};
 		
 		shellAliases = {
