@@ -64,7 +64,6 @@
 				zstyle ':autocomplete:*' default-context curcontext 
 				zstyle ':autocomplete:*' min-input 0
 
-				setopt HIST_FIND_NO_DUPS
 				autoload -Uz compinit
 				compinit
 
