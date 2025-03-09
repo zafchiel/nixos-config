@@ -54,18 +54,6 @@
 			vim = "nvim";
 			v = "nvim";
 		};
-		
-		initExtra = ''
-			# Custom ZSH configuration
-			export EDITOR=nvim
-			export PATH=$HOME/.local/bin:$PATH
-			
-			# History settings
-			HISTSIZE=10000
-			SAVEHIST=10000
-			HISTFILE=~/.zsh_history
-			setopt SHARE_HISTORY
-		'';
 	};
 
 	programs.git = {
