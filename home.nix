@@ -27,7 +27,7 @@
 
 	programs.zsh = {
 		enable = true;
-		enableAutosuggestions = true;
+		autosuggestion.enable = true;
 		enableCompletion = true;
 		syntaxHighlighting.enable = true;
 		
@@ -35,10 +35,8 @@
 			enable = true;
 			plugins = [
 				"git"
-				"docker"
 				"history"
 				"sudo"
-				"autojump"
 				"command-not-found"
 			];
 			theme = "robbyrussell";
@@ -46,10 +44,9 @@
 		
 		shellAliases = {
 			la = "ls -A";
-			rebuild = "sudo nixos-rebuild switch --flake ~/nix/";
-			home-switch = "home-manager switch --flake ~/nix/";
 			lg = "lazygit";
 			vim = "nvim";
+			v = "nvim";
 		};
 		
 		initExtra = ''
