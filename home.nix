@@ -21,15 +21,6 @@
 
 	programs.home-manager.enable = true;
 
-	programs.bash = {
-		enable = true;
-		shellAliases = {
-			la = "ls -A";
-			rebuild = "sudo nixos-rebuild switch --flake ~/nix/";
-			home-switch = "home-manager switch --flake ~/nix/";
-		};
-	};
-
 	programs.zsh = {
 		enable = true;
 		autosuggestion.enable = true;
