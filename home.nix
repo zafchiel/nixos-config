@@ -10,6 +10,7 @@
 			wezterm
 			zsh
 			neovim
+			lazygit
 		];
 	};
 
