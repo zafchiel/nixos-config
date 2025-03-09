@@ -9,6 +9,7 @@
 			neofetch
 			wezterm
 			zsh
+			neovim
 		];
 	};
 
@@ -27,6 +28,7 @@
 		userName = "zafchiel";
 		userEmail = "bialakropla@proton.me";
 		extraConfig = {
+			init.defaultBranch = "main";
 			credential.helper = "store";
 		};
 	};
