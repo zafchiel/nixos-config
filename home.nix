@@ -11,6 +11,7 @@
 			zsh
 			neovim
 			lazygit
+			ungoogled-chromium
 
 			ripgrep
 			gnumake
