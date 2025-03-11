@@ -18,6 +18,8 @@
 			unzip
 			gcc
 			pnpm_10
+      fzf
+      fd
 		];
 	};
 
