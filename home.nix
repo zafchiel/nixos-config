@@ -13,10 +13,12 @@
 			lazygit
 			ungoogled-chromium
 
+      wget
 			ripgrep
 			gnumake
 			unzip
 			gcc
+      nodejs_23
 			pnpm_10
       fzf
       fd
