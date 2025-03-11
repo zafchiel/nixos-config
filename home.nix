@@ -17,6 +17,7 @@
 			gnumake
 			unzip
 			gcc
+			pnpm_10
 		];
 	};
 
@@ -54,6 +55,7 @@
 			lg = "lazygit";
 			vim = "nvim";
 			v = "nvim";
+			pn = "pnpm";
 		};
 	};
 
