@@ -12,6 +12,7 @@
 			neovim
 			lazygit
 			ungoogled-chromium
+      obsidian
 
       wget
 			ripgrep
@@ -30,8 +31,8 @@
 	programs.zsh = {
 		enable = true;
 		autosuggestion.enable = true;
-		enableCompletion = true;
-		syntaxHighlighting.enable = true;
+    # enableCompletion = true;
+    # syntaxHighlighting.enable = true;
 
 		plugins = [
 			{
@@ -49,7 +50,6 @@
 			enable = true;
 			plugins = [
 				"git"
-				"history"
 			];
 			theme = "robbyrussell";
 		};
