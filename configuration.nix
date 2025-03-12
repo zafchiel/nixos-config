@@ -130,6 +130,11 @@
 	jetbrains-mono
   ];
 
+  environment.gnome.excludePackages = (with pkgs; [
+    epiphany
+    geary
+  ]);
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
