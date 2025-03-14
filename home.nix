@@ -14,17 +14,17 @@
 			neovim
 			lazygit
 			ungoogled-chromium
-      obsidian
+			obsidian
 
-      wget
+			wget
 			ripgrep
 			gnumake
 			unzip
 			gcc
-      nodejs_23
+			nodejs_23
 			pnpm_10
-      fzf
-      fd
+			fzf
+			fd
 		];
 	};
 
