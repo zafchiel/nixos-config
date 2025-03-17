@@ -1,11 +1,6 @@
 { config, pkgs, ... }: {
   nixpkgs.config.allowUnfree = true;
 
-  imports = [
-    ./zsh/zsh.nix
-    ./cliphist.nix
-  ];
-
 	home = {
 		username = "zafchiel";
 		homeDirectory = "/home/zafchiel";
