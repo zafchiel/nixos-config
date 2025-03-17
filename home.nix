@@ -21,6 +21,7 @@
 			ungoogled-chromium
 			obsidian
       eza
+      zoxide
 
 			wget
 			ripgrep
