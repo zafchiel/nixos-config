@@ -17,6 +17,7 @@
 			obsidian
       eza
       zoxide
+      code-cursor
 
 			wget
 			ripgrep
