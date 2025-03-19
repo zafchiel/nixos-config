@@ -88,7 +88,7 @@
     isNormalUser = true;
     description = "zafchiel";
     shell = pkgs.zsh;
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
     #  thunderbird
     ];
@@ -107,7 +107,11 @@
   #  wget
     home-manager
     gnomeExtensions.vitals
+    docker-compose
   ];
+
+  # Enable docker
+  virtualisation.docker.enable = true;
 
   # Automatic updates
   system.autoUpgrade.enable = true;
