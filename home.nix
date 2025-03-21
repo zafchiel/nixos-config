@@ -19,6 +19,7 @@
       zoxide
       code-cursor
 
+      wl-clipboard
 			wget
 			ripgrep
 			gnumake
