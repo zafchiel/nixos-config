@@ -13,7 +13,7 @@
 			zsh
 			neovim
 			lazygit
-			ungoogled-chromium
+      vivaldi
 			obsidian
       eza
       zoxide
