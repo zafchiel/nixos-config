@@ -18,6 +18,7 @@
       eza
       zoxide
       code-cursor
+      mailspring
 
       wl-clipboard
 			wget
