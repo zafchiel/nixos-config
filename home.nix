@@ -18,6 +18,7 @@
       eza
       zoxide
       code-cursor
+      vscode
       mailspring
 
       wl-clipboard
