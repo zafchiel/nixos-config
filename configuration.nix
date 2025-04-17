@@ -130,8 +130,7 @@
   ];
 
   fonts.packages = with pkgs; [
-	(nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
-	jetbrains-mono
+	pkgs.nerd-fonts.jetbrains-mono
   ];
 
   environment.gnome.excludePackages = (with pkgs; [

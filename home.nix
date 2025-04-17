@@ -8,6 +8,7 @@
 
 		packages = with pkgs; [
 			htop
+      btop
 			neofetch
 			wezterm
 			zsh
