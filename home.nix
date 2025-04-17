@@ -19,7 +19,7 @@
       eza
       zoxide
       code-cursor
-      vscode
+      vscodium
       mailspring
 
       wl-clipboard
