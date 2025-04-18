@@ -21,6 +21,7 @@
       code-cursor
       vscodium
       mailspring
+      vesktop
 
       wl-clipboard
 			wget
