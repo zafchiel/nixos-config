@@ -22,6 +22,7 @@
       vscodium
       mailspring
       vesktop
+      doppler
 
       wl-clipboard
 			wget
