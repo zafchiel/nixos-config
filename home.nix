@@ -23,6 +23,7 @@
       mailspring
       vesktop
       doppler
+      libreoffice-fresh
 
       wl-clipboard
 			wget

@@ -130,7 +130,8 @@
   ];
 
   fonts.packages = with pkgs; [
-	pkgs.nerd-fonts.jetbrains-mono
+	  pkgs.nerd-fonts.jetbrains-mono
+    corefonts
   ];
 
   environment.gnome.excludePackages = (with pkgs; [
