@@ -24,6 +24,9 @@
       vesktop
       doppler
       libreoffice-fresh
+      streamlink
+      mpv
+      chatterino2
 
       wl-clipboard
 			wget
