@@ -27,6 +27,9 @@
       streamlink
       mpv
       chatterino2
+      streamlink-twitch-gui-bin
+      helix
+
 
       wl-clipboard
 			wget
